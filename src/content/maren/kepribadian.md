@@ -6,9 +6,9 @@ img_alt: A bright pink sheet of paper used to wrap flowers curves in front of ri
 description: |
   Manusia dilahirkan ke muka bumi dengan  berbagai jenis kepribadian yang berbeda-beda antara satu manusia dengan manusia lainnya. Kepribadian itu secara kasat mata ataupun tidak dapat menggambarkan bagaimana cara seseorang dalam berpikir, bertindak, berinteraksi, dan lainnya.
 tags:
-  - Dev
-  - Branding
-  - Backend
+  - Tipe Kepribadian 
+  - Karakter Manusia
+  - Psikologi
 ---
 
 > 1. Sanguinis

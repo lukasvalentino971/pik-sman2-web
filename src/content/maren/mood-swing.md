@@ -9,9 +9,9 @@ description:
  
  Mari kenali penyebab, tanda-tanda, dan cara mengatasi mood swing selengkapnya melalui artikel di bawah ini.
 tags:
-  - Dev
-  - Branding
-  - Backend
+  - Kesehatan Mental
+  - Kesejahteraan Emosional
+  - Keseimbangan Hormon
 ---
 > Apa itu Mood Swing?
  

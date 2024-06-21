@@ -7,9 +7,9 @@ img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
 description: |
   Melanjutkan pembahasan tentang asupan makanan dan gizi seimbang pada remaja di topik sebelumnya, salah satu risiko yang terjadi jika asupan makanan tidak terpenuhi dengan seimbang adalah terjadinya anemia pada remaja.
 tags:
-  - Design
-  - Dev
-  - Branding
+  - Anemia Remaja
+  - Gejala Anemia
+  - Pencegahan Anemia
 ---
 ## Anemia??
 

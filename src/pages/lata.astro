@@ -6,12 +6,14 @@ import Hero from "../components/Hero.astro";
 
 <BaseLayout title="LaTa | Lagu Kita" description="Lagu Kita">
   <div class="stack gap-20">
+    <Hero
+      title="LaTa | Lagu Kita"
+      tagline="Jadi dibawah ini merupakan karya dari program nyenja kami yaitu lagu yang kita ciptakan, kepoin yuk"
+    />
     <main class="wrapper about">
-      <Hero
-        title="LaTa | Lagu Kita"
-        tagline="Jadi dibawah ini merupakan karya dari program nyenja kami yaitu lagu yang kita ciptakan, kepoin yuk"
-      />
-
+      <img src="/assets/bermusik.jpeg" alt="Lagu Kita" width="800px" class="center-img"/>
+    </main>
+    <main class="wrapper about">
       <section>
         <h2 class="section-title">Judul Lagu: Katakan Tidak</h2>
         <div class="content">
@@ -40,10 +42,10 @@ import Hero from "../components/Hero.astro";
       <section>
         <div class="content">
           <p>
-            (Reft)<br />
+            (Reff)<br />
             Katakan tidak, katakan tidak,<br />
             Pada godaan yang merusak diri.<br />
-            Katakan tidak, katakan kuat,<br />
+            Katakan tidak, katakan tidak,<br />
             Pernikahan dini bukan untuk kita.
           </p>
         </div>
@@ -52,7 +54,19 @@ import Hero from "../components/Hero.astro";
       <section>
         <div class="content">
           <p>
-            (Reft)<br />
+            (Bridge)<br />
+            Mental health itu penting, jangan diabaikan,<br />
+            Karena jiwa yang sehat adalah kekuatan.<br />
+            Marilah kita jaga, mari kita lindungi,<br />
+            Untuk masa depan yang cerah dan abadi.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="content">
+          <p>
+            (Reff)<br />
             Katakan tidak, katakan tidak,<br />
             Pada tindakan yang merugikan diri.<br />
             Katakan tidak, dengan penuh keyakinan,<br />
@@ -67,7 +81,6 @@ import Hero from "../components/Hero.astro";
         Your browser does not support the audio element.
       </audio>
     </main>
-
     <ContactCTA />
   </div>
 </BaseLayout>
@@ -83,6 +96,12 @@ import Hero from "../components/Hero.astro";
     margin-top: 1.5rem;
     border-radius: 1.5rem;
     box-shadow: var(--shadow-md);
+  }
+
+  .center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   section {

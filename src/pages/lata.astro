@@ -11,6 +11,7 @@ import Hero from "../components/Hero.astro";
         title="LaTa | Lagu Kita"
         tagline="Jadi dibawah ini merupakan karya dari program nyenja kami yaitu lagu yang kita ciptakan, kepoin yuk"
       />
+
       <section>
         <h2 class="section-title">Judul Lagu: Katakan Tidak</h2>
         <div class="content">
@@ -59,6 +60,12 @@ import Hero from "../components/Hero.astro";
           </p>
         </div>
       </section>
+
+      <!-- Audio Player -->
+      <audio controls autoplay>
+        <source src="/assets/musik.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
     </main>
 
     <ContactCTA />

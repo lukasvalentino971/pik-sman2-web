@@ -63,7 +63,6 @@ const { Content } = await entry.render();
     <ContactCTA />
   </div>
 </BaseLayout>
-
 <style>
   header {
     padding-bottom: 2.5rem;
@@ -85,7 +84,14 @@ const { Content } = await entry.render();
 
   .tags {
     display: flex;
-    gap: 0.5rem;
+    gap: 0.25rem; /* Reduced gap between tags */
+    flex-wrap: wrap; /* Allow tags to wrap to the next line */
+    justify-content: center; /* Center tags */
+  }
+
+  .tags .pill {
+    font-size: var(--text-sm); /* Reduced font size */
+    padding: 0.25rem 0.5rem; /* Reduced padding */
   }
 
   .description {

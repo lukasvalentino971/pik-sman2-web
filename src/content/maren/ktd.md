@@ -60,7 +60,7 @@ bermain juga termasuk dalam melakukan aktivitas fisik.
 - Bayi yang dilahirkan oleh ibu yang terlalu muda lebih mungkin berukuran kecil atau lahir prematur (sebelum waktunya).
 - Bila masih remaja dan terlanjur hamil, cepat hubungi bidan atau petugas kesehatan yang berpengalaman agar mendapatkan layanan kehamilan dan persalinan yang aman
 
-## Bagaimana cara mencegahnya ?
+### Bagaimana cara mencegahnya ?
 
 > 1. Peran Orang Tua
 - Menanamkan pola asuh yang baik pada anak sejak dini

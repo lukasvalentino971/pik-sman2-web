@@ -20,9 +20,6 @@ import Skills from "../components/Skills.astro";
 const projects = (await getCollection("maren"))
   .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
   .slice(0, 4);
-
-// Full Astro Component Syntax:
-// https://docs.astro.build/basics/astro-components/
 ---
 
 <BaseLayout>
@@ -36,7 +33,7 @@ const projects = (await getCollection("maren"))
         />
 
         <img
-          alt="Jeanine White smiling in a red plaid shirt and tortoise shell glasses"
+          alt="Inscada Youth Care and Communication"
           width="850"
           height="400"
           src="/assets/tyty.jpeg"
@@ -104,6 +101,8 @@ const projects = (await getCollection("maren"))
                       objectFit: "cover", // atau "contain" tergantung kebutuhan
                       width: "100%", // mengisi lebar 100% kontainer
                       height: "100%", // mengisi tinggi 100% kontainer
+                      border: "2px solid #ccc", // Tambahkan border di sini
+                      borderRadius: "8px", // Tambahkan border-radius jika diinginkan
                     }}
                   />
                 </li>

@@ -1,6 +1,6 @@
-# Astro Starter Kit: Portfolio
+# Astro Starter Kit: Website Starter
 
-```sh
+```
 npm create astro@latest -- --template portfolio
 ```
 
